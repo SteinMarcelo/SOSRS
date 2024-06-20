@@ -1,25 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Página mobile first</title>
+  <!-- Link para o arquivo de estilos CSS -->
   <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
   <header>
-    <h1>Título da página</h1>
+    <!-- Título principal do site -->
+    <h1>SOS RS</h1>
   </header>
 
   <main>
-    <p>Conteúdo da página.</p>
+    <div class="container">
+      <!-- Título da seção de consulta de sintomas -->
+      <h1>Consulta de Sintomas</h1>
+      <!-- Formulário para entrada de sintomas -->
+      <form id="symptom-form">
+        <label for="symptoms">Digite seus sintomas:</label>
+        <!-- Campo de entrada de texto para os sintomas -->
+        <input type="text" id="symptoms" name="symptoms" placeholder="ex: febre, tosse, dor de cabeça">
+        <!-- Botão para enviar o formulário -->
+        <button type="submit">Consultar</button>  
+        <a href="../cam.html"><button class="photo" type="submit2">Foto</button></a>
+      </form>
+      <!-- Div para exibir o resultado da consulta -->
+      <div id="result"></div>
+    </div>
   </main>
 
   <footer>
-    <p>Rodapé da página.</p>
+    <!-- Informações do rodapé -->
+    <p>Marcelo Boeira UC12.</p>
   </footer>
+
+  <!-- Link para o arquivo de script JavaScript -->
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

@@ -1,39 +1,83 @@
+/* Estilo básico do corpo da página */
 body {
     font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-header {
-    background-color: #f1f1f1;
-    padding: 20px;
+/* Estilo para o cabeçalho e rodapé */
+header, footer {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
     text-align: center;
 }
 
+/* Estilo para o conteúdo principal */
 main {
-    margin: 20px;
-}
-
-footer {
-    background-color: #f1f1f1;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
-    text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-    body {
-        font-size: 25px;
-    }
+/* Estilo para o contêiner do formulário */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
 
-    header {
-        padding: 10px;
-    }
+/* Estilo para o título dentro do contêiner */
+h1 {
+    margin-bottom: 20px;
+}
 
-    main {
-        margin: 10px;
-    }
+/* Estilo para o formulário */
+form {
+    margin-bottom: 20px;
+}
 
-    footer {
-        padding: 10px;
-    }
+/* Estilo para o rótulo do campo de entrada */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Estilo para o campo de entrada de texto */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para o botão de envio */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Estilo para o botão de envio quando o mouse está sobre ele */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para a div que exibirá os resultados */
+#result {
+    margin-top: 20px;
 }
