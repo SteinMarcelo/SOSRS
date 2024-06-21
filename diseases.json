@@ -1,0 +1,26 @@
+[
+    {
+        "disease": "Leptospirose",
+        "symptoms": ["febre", "tosse", "dor de cabeça", "cansaço"]
+    },
+    {
+        "disease": "Tétano",
+        "symptoms": ["febre", "tosse", "cansaço", "falta de ar"]
+    },
+    {
+        "disease": "Diarreia Aguda",
+        "symptoms": ["febre", "dor de cabeça", "dor no corpo", "manchas na pele"]
+    },
+    {
+        "disease": "Hepatite A",
+        "symptoms": ["coriza", "espirros", "dor de garganta", "tosse"]
+    },
+    {
+        "disease": "Dengue",
+        "symptoms": ["coriza", "espirros", "dor de garganta", "tosse"]
+    },
+    {
+        "disease": "Animais Peçonhentos",
+        "symptoms": ["coriza", "espirros", "dor de garganta", "tosse"]
+    }
+]
